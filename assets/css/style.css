@@ -2,7 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: white;
     text-align: center;
 }
 
@@ -15,6 +15,10 @@ h3,
 p,
 li {
     color: green;
+}
+
+ul {
+    list-style: none;
 }
 
 img {
@@ -52,14 +56,20 @@ nav a:hover {
     color: darkred;
 }
 
-#banner {
-    width: 100%;
+.banner {
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+
+.banner {
+    width: auto;
     height: auto;
     background-color: white;
 }
 
 #banner img {
-    width: 60%;
+    width: 100%;
     height: auto;
 }
 
@@ -75,12 +85,17 @@ nav a:hover {
 }
 
 table {
-    border: 3px solid black;
+    border: 2px solid black;
     width: 100%;
 }
-  
+
 td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+.padding {
+    padding-top: 18px;
+    padding-bottom: 25px;
 }
